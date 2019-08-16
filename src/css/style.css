@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap");
 @import "header.css";
 @import "items.css";
+@import "ideas.css";
+
 
 * {
   font-family: "Raleway", sans-serif;

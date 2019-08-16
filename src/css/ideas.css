@@ -1,0 +1,41 @@
+.ideas{
+  padding-top: 100px;
+  background: #fbfaf8;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.saite{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 70vh;
+}
+
+section.ideas > div > div.saite > img.sites1, img.sites2, img.sites3{
+  max-width:202%;
+}
+
+section.ideas > div > div.saite > img.sites1{
+  position: relative;
+  left: -50%;
+  top: 0vh;
+  order: 2;
+  z-index: 3;
+}
+
+section.ideas > div > div.saite > img.sites2{
+  position: relative;
+  left: -102%;
+  top: 17%;
+  order: 2;
+  z-index: 1;
+}
+
+section.ideas > div > div.saite > img.sites3{
+  position: relative;
+  left:0vw;
+  top: 17%;
+  z-index: 2;
+}
+
