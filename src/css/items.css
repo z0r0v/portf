@@ -46,6 +46,12 @@ h2 {
   background: #f1eee9;
 }
 
+
+/* active */
 .border-down-active{
   background: #c7b299;
+}
+
+.h2-active{
+color: #c7b299;
 }
