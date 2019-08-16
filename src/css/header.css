@@ -1,0 +1,115 @@
+.nav_cont{
+  background: linear-gradient(to right, rgba(199, 178, 153, 0.2), rgba(199, 178, 153, 0.01)) ;
+  position: fixed;
+  z-index: 10;
+  padding: 5px 10%;
+  border-bottom: 2px solid rgba(199, 178, 153, 0.05);
+}
+
+.carousel-control-prev-icon{
+background-image:url("/src/img/ico/chevron-pngrepo-l.png");
+}
+
+.carousel-control-next-icon{
+  background-image:url("/src/img/ico/chevron-pngrepo-r.png");
+}
+
+.slider{
+  padding: 0;
+}
+
+@media (min-width: 790px) {
+  ul.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+  
+  div.box-flex{
+    display: flex;
+    justify-content:space-between;
+    z-index: 10;
+  
+  }
+  
+  div.logo{
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-start;
+  }
+
+  h2.my-name{
+    font-size:1.2em;
+  };
+
+  ul.nav > li > a.nav-link, div.logo{
+    font-size:1.1em;
+    margin: 0;
+    padding-bottom: 0;
+    }
+}
+
+@media (max-width: 769px){
+  div.logo{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+  }
+  ul.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+}
+
+ul.nav > li > a.nav-link, h2.my-name {
+  color:white;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+ul.nav > li > a.nav-link:hover{
+  cursor: pointer;
+  color: #c7b299;
+}
+
+img.logo{
+  padding: 0  10px 10px 0;
+  max-width: 50px;
+}
+
+.carousel-item{
+  margin-top: -20px;
+}
+
+.carousel-item h5{
+ margin-top: -35%;
+ font-size: 3em;
+ font-weight: 600;
+ font-family: 'Raleway', sans-serif;
+}
+
+.carousel-item p{
+  font-size: 1.1em;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.get-started{
+  margin-top:3%;;
+ text-transform: uppercase;
+ background: #998675;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ height: 50px;
+ font-size: 16px; 
+ padding: 7px 38px;
+ box-shadow: 0 3px 1px #736357;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 800;
+}
+
+.get-started:active{
+  background: #c7b299;
+}
