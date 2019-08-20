@@ -7,11 +7,11 @@
 }
 
 .carousel-control-prev-icon{
-background-image:url("/src/img/ico/chevron-pngrepo-l.png");
+background-image:url("../img/icons/chevron-pngrepo-l.png");
 }
 
 .carousel-control-next-icon{
-  background-image:url("/src/img/ico/chevron-pngrepo-r.png");
+  background-image:url("../img/icons/chevron-pngrepo-r.png");
 }
 
 .slider{
@@ -29,7 +29,6 @@ background-image:url("/src/img/ico/chevron-pngrepo-l.png");
     display: flex;
     justify-content:space-between;
     z-index: 10;
-  
   }
   
   div.logo{
@@ -40,7 +39,7 @@ background-image:url("/src/img/ico/chevron-pngrepo-l.png");
 
   h2.my-name{
     font-size:1.2em;
-  };
+  }
 
   ul.nav > li > a.nav-link, div.logo{
     font-size:1.1em;
